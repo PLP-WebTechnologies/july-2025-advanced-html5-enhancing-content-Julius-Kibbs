@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple form</title>
+</head>
+<body>
+    <section>
+    <h1>Form</h1>
+    <form action="submit">
+        <label for="name">
+            Name:
+            <input type="text" id="name" name="name" required><br>
+        </label><br>
+        
+        <label for="email">
+            Email:
+            <input type="email" id="email" name="email" required><br>
+        </label><br>
+
+         <label for="phoneno">
+            Phone Number:
+            <input type="number" id="phoneno" name="phoneno" required><br>
+        </label><br>
+
+        <label for="password">
+            Password:
+            <input type="password" id="password" name="password" minlength="8" required><br>
+        </label><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    </section>
+
+
+    <section>
+        <p>Favourite programming languages</p>
+        <ol>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>CSS</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Table</h2>
+            <table>
+                <tr>
+                    <th>Language</th>
+                    <th>Popularity</th>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>High</td>
+                </tr>
+            </table>
+    </section>
+
+    <section>
+        <h2>Image</h2>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        <p>This is a placeholder image.</p>
+
+        <h2>Audio</h2>
+        <audio autoplay>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+    </section>
+</body>
+</html>
